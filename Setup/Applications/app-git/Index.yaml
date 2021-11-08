@@ -3,4 +3,4 @@ type: APPLICATION
 branchName: master
 gitConnector: git test 2
 isGitSyncEnabled: true
-repoName: tic-tac-toe
+repoName: Register
