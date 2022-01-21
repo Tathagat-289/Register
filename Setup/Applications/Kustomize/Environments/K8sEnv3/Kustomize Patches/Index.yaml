@@ -1,0 +1,3 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST_KUSTOMIZE_PATCHES_ENV_OVERRIDE
+storeType: Local
