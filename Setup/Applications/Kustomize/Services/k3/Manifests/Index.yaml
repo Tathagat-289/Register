@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: master
+  connectorName: PipelinesNgAutomation
+  filePath: k8s/manifests/helm/todolist
+  useBranch: true
+  useInlineServiceDefinition: false
+skipVersioningForAllK8sObjects: true
+storeType: HelmSourceRepo

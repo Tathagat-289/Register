@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: master
+  connectorName: naman-test
+  useBranch: true
+  useInlineServiceDefinition: false
+kustomizeConfig:
+  kustomizeDirPath: KustomizePatches/kustomize-plugin/hello-world/
+  pluginRootDir: /opt/harness-delegate/
+skipVersioningForAllK8sObjects: false
+storeType: KustomizeSourceRepo

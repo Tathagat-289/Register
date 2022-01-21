@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: master
+  connectorName: PipelinesNgAutomation
+  useBranch: true
+  useInlineServiceDefinition: false
+kustomizeConfig:
+  kustomizeDirPath: CGKustomizePatches/PatchesTest/kustomize/multipleEnv/environments/production/
+storeType: KustomizeSourceRepo
