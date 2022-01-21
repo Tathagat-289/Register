@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: aef
+  connectorName: tctoken
+  useBranch: true
+  useInlineServiceDefinition: false
+storeType: Remote
