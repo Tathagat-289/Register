@@ -1,0 +1,10 @@
+env_url: "${env.name}.attair.synopsys.com"
+rootDomain: "${env.name}.altair.synopsys.rom"
+InternatRootDomatn: "${env.name}.internal.altair.synopsys.com"
+altatrInternalDomain: "${env.name}.internal.altair.synopsys.com"
+scaniarmInternatDomain: "scanfare-${env.name}.internal.altair.synopsys.com"
+environmentName: "${env.name}"
+altair:
+  environment:
+    vaultHost: "vault.${env.name}-vault.svc"
+    ctoud5g1Host: "postgresql"
