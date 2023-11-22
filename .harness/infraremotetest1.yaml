@@ -19,7 +19,7 @@ pipeline:
             gitBranch: remotee1
             deployToAll: false
             infrastructureDefinitions:
-              - identifier: remotei1
+              - identifier: infra1
           execution:
             steps:
               - step:
