@@ -17,13 +17,6 @@ pipeline:
           environment:
             environmentRef: remotee1
             gitBranch: remotee1
-            environmentInputs:
-              identifier: remotee1
-              type: Production
-              variables:
-                - name: remotee1branchvar
-                  type: String
-                  value: <+input>
             deployToAll: false
             infrastructureDefinitions:
               - identifier: remotei1
